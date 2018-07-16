@@ -1,8 +1,7 @@
 
 
 def starts_with_a_vowel?(word)
-  word = "A regular expression is a sequence of characters that define a search pattern."
-    text.match./^[aeiou]$/
+   "once upon a midnight dreary"match(/^[aeiou]/)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
