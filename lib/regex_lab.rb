@@ -1,7 +1,7 @@
 
 
 def starts_with_a_vowel?(word)
-  text = "A regular expression is a sequence of characters that define a search pattern."
+  word = "A regular expression is a sequence of characters that define a search pattern."
     text.scan(/\w[aeiou]\)
 end
 
