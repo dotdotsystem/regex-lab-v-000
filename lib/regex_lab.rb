@@ -1,5 +1,8 @@
-def starts_with_a_vowel?(word)
 
+
+def starts_with_a_vowel?(word)
+  text = "A regular expression is a sequence of characters that define a search pattern."
+    text.scan(/\b[aeiou]\b/)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
