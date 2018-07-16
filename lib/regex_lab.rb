@@ -1,7 +1,8 @@
 
 
 def starts_with_a_vowel?(word)
-   if "once upon a midnight dreary".match(/^[aeiou]/)
+  word =  "once upon a midnight dreary"
+   if word.match(/^[aeiou]/)
      return true
 end
 
