@@ -1,7 +1,7 @@
 
 
 def starts_with_a_vowel?(word)
-   "once upon a midnight dreary"match(/^[aeiou]/)
+   "once upon a midnight dreary".match(/^[aeiou]/)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
