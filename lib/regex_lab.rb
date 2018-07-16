@@ -1,9 +1,7 @@
 
-
+word = "once upon here are."
 def starts_with_a_vowel?(word)
-  word =  "once upon a midnight dreary"
-   if word.match(/^[aeiou]/)
-     return true
+  word.match(/[aeiou]/)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
